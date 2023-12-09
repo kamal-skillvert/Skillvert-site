@@ -84,9 +84,22 @@
   transform-origin: 50% 50% 0;
   transition: all 250ms ease-out 0s;
 }
-
-/* @media(max-width){
-  .item, .testimonial-name{
-    font-size: 0.6rem;
+@media(max-width:399px){
+  #customer-testimonoals .item {
+    padding: 15px;
   }
-} */
+  .testimonial-name  {
+    padding: 5px 15px;
+  }
+  .testimonial-name h5, .testimonial-name small {
+    font-size: 0.9rem;
+  }
+}
+@media(max-width:600px) {
+  #customer-testimonoals .item {
+    padding: 30px;
+  }
+  .testimonial-name  {
+    padding: 5px 35px;
+  }
+}

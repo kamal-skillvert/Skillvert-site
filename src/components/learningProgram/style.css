@@ -27,11 +27,6 @@
     height: 3px;
 }
 
-.programs {
-    display: flex;
-    justify-content: space-evenly;
-}
-
 .col-lg-4 {
     margin: 0 20px 10px 0;
 }
@@ -121,5 +116,11 @@
     .col-lg-4 {
         flex: 0 0 auto;
         width: 31.33333333%;
+    }
+}
+@media (min-width:900px){
+    .programs {
+        display: flex;
+        justify-content: space-evenly;
     }
 }
