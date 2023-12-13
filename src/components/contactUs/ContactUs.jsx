@@ -24,6 +24,7 @@ const ContactUs = () => {
                     <img src={bg1}/>
                 </div>
             </div>
+            
         </div>
     </div> 
     </>

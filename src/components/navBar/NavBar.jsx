@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
-import skillVertLogo from "../../assets/skillvert_logo (1).png"; 
-
+import skillVertLogo from "../../assets/skillvert_logo (1).png";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -36,60 +36,10 @@ const NavBar = () => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="about_us.html">
-                    About Us
-                  </a>
+                  <Link className="nav-link" to="/about-us">About Us</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="contact_us.html">
-                    Contact Us
-                  </a>
-                </li>
-                <li className="nav-item dropdown">
-                  <a
-                    className="nav-link dropdown-toggle"
-                    href="hello"
-                    id="navbarDropdown"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    Dropdown
-                  </a>
-                  <ul
-                    className="dropdown-menu"
-                    aria-labelledby="navbarDropdown"
-                  >
-                    <li>
-                      <a className="dropdown-item" href="hello">
-                        Action
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="hello">
-                        Another action
-                      </a>
-                    </li>
-                    <li>
-                      <hr className="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="hello">
-                        Something else here
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-                <li className="nav-item">
-                  <a
-                    className="nav-link disabled"
-                    href="hello"
-                    tabIndex="-1"
-                    aria-disabled="true"
-                  >
-                    Disabled
-                  </a>
+                  <Link className="nav-link" to="/contact-us">Contact Us</Link>
                 </li>
               </ul>
               <div className="d-flex ml-auto">
