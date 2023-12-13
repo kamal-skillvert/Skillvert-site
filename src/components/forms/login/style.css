@@ -1,0 +1,9 @@
+#login-container{
+    margin: 20px auto;
+}
+
+@media (min-width:1200px){
+    #login-container{
+        max-width: 30%;
+    }
+}
