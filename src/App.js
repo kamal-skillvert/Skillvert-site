@@ -1,20 +1,14 @@
 import './App.css';
+import React from 'react';
+import Coursegrid from './Components/Coursegrid';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src="./Assets/skillvert_logo.png" className="App-logo" alt="logo" />
-        <a
-          className="App-link"
-          href="Assets/skillvert_logo.png"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Skillver Coming soon
-        </a>
-      </header>
+      <Coursegrid/>
     </div>
+
   );
 }
 
