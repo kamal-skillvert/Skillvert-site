@@ -1,0 +1,126 @@
+.learning-program-block {
+    width: 100%;
+}
+
+.learning-program-inner-block {
+    max-width: 80%;
+    margin: auto;
+}
+
+.pricing-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.pricing-block h2 {
+    font-size: 2.5rem;
+    color: #001973;
+}
+
+.pricing-block p {
+    width: 10%;
+    display: block;
+    border: 2px solid #0d42ff;
+    height: 3px;
+}
+
+.col-lg-4 {
+    margin: 0 20px 10px 0;
+}
+
+.pricing-item {
+    padding: 60px 40px;
+    box-shadow: 0 3px 20px -2px rgba(108, 117, 125, 0.15);
+    background: #fff;
+    height: 100%;
+    border-top: 4px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.pricing-item:hover {
+    transition: 2s ease-in-out;
+    box-shadow: 2px 0px 10px #0d42ff;
+}
+
+.pricing-item h4 {
+    font-size: 3rem;
+    color: #0d42ff;
+    font-weight: 400;
+}
+
+.price {
+    font-size: 1.7rem;
+}
+
+.price-duration {
+    color: rgba(108, 117, 125, 0.8);
+    font-size: 1rem;
+}
+
+.pricing-item ul {
+    padding: 0;
+    list-style: none;
+    color: #6c757d;
+    text-align: left;
+    line-height: 20px;
+    font-size: 1.1rem;
+}
+
+.pricing-item ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.pricing-item ul li svg {
+    height: 24px;
+    width: 24px;
+}
+
+.btn-primary {
+    margin: 0 0 0 10px;
+    padding: 7px 25px;
+}
+
+#overridden-btn {
+    background-color: #fff;
+    color: #0d6efd;
+}
+
+#overridden-btn:hover {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    .programs {
+        display: block;
+        justify-content: space-evenly;
+        font-size: 0.5rem;
+    }
+
+    .pricing-item ul {
+        font-size: 0.6rem;
+    }
+
+    .pricing-item h4 span {
+        font-size: 0.6rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        flex: 0 0 auto;
+        width: 31.33333333%;
+    }
+}
+@media (min-width:900px){
+    .programs {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
