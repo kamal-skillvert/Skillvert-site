@@ -2,6 +2,9 @@
 
 
 #CseCourses{
+    position: sticky;
+    top: auto;
+    z-index: 1;
     overflow-y: scroll;
     height: 100vh;
 }

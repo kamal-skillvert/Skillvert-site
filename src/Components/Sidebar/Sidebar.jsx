@@ -10,11 +10,11 @@ import { NavLink, Outlet} from 'react-router-dom';
 
 const Sidebar = () => {
   return (
-    <div style={{ display: 'flex', height: '90vh', overflow: 'scroll initial' }}>
+    <div style={{ display: 'flex', height: '90vh', overflow: 'scroll initial', zIndex:"1", position:"sticky" }}>
       <CDBSidebar textColor="#fff" backgroundColor="#333">
         <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
           <a href="/" className="text-decoration-none" style={{ color: 'inherit' }}>
-            Skillvert
+            Courses
           </a>
         </CDBSidebarHeader>
 

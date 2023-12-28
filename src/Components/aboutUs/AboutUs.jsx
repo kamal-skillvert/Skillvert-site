@@ -25,7 +25,7 @@ const AboutUs = () => {
             <span>DATA SCIENCE</span>
           </div>
           <button className="btn btn-primary">
-            <Link to="/" style={{color:"white"}}>Home page</Link>
+            <Link to="/" style={{color:"white", textDecoration:"none"}}>Home page</Link>
           </button>
         </div>
       </div>

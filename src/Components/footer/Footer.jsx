@@ -49,7 +49,7 @@ const Footer = () => {
 
                         </div>
                     </div>
-                    <div className='col-lg-2 col-6 footer-links'>
+                    {/* <div className='col-lg-2 col-6 footer-links'>
                         <h4>PRODUCTS</h4>
                         <ul>
                             <li>Basic Course</li>
@@ -57,8 +57,8 @@ const Footer = () => {
                             <li>Advance Course</li>
                             <li>Interview Preperation kit</li>
                         </ul>
-                    </div>
-                    <div className='col-lg-2 col-6 footer-links'>
+                    </div> */}
+                    {/* <div className='col-lg-2 col-6 footer-links'>
                         <h4>USEFUL LINKS</h4>
                         <ul>
                             <li>Pricing</li>
@@ -66,7 +66,7 @@ const Footer = () => {
                             <li>Orders</li>
                             <li>Help</li>
                         </ul>
-                    </div>
+                    </div> */}
                     <div className='col-lg-3 col-md-12 footer-contact text-center text-md-start'>
                         <h4>CONTACT US</h4>
                         <p>

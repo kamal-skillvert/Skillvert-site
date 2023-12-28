@@ -1,4 +1,5 @@
 .carousel-indicators [data-bs-target] {
+    z-index: -1;
     border-radius: 100%;
     width: 10px;
     height: 10px;

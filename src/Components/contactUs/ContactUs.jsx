@@ -7,7 +7,7 @@ const ContactUs = () => {
   return (
     <>
       <div className="contact-form">
-        <h1>Details</h1>
+        <h1>Fill your details and we will reach out to you soon!!</h1>
         <div className="container" style={{position:"center"}}>
             <div className="main">
                 <div className="content">
