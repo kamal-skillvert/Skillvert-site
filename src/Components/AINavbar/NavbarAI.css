@@ -2,9 +2,10 @@
 
 .navbar {
   display: flex;
+  /* height: 4.2em; */
   width: 100%;
   background-color: #333333;
-  padding: 1rem;
+  padding: .6rem;
   text-decoration: none;
   position: sticky;
   top: 0;
@@ -35,7 +36,7 @@
 }
 
 .navbar-menu li:hover{
-  color: #fb61e4;
+  color: #f6c7ef;
 }
 
 .nav-link {
