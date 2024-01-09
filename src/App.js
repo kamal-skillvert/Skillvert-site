@@ -5,7 +5,6 @@ import ContactUs from './Components/contactUs/ContactUs';
 import AboutUs from './Components/aboutUs/AboutUs';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './Components/homePage/HomePage';
-import NavBar from './Components/navBar/NavBar';
 import Sidebar from './Components/Sidebar/Sidebar';
 import Ece from './Components/Ece/Ece';
 import Management from './Components/Management/Management';
